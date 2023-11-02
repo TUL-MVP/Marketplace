@@ -663,6 +663,10 @@ ul#tabs li.check {
     .cta-section{
         background-image: url(../assets/img/background-cta-section-1440.webp);
     }
+
+    .beneficios-section {
+        background-image: url(../assets/img/beneficios-background-1440.webp);
+    }
   }
 /*Start media Query 1400*/
 @media (max-width: 1400px) {
@@ -722,6 +726,7 @@ ul#tabs li.check {
         margin-top:50px;
         margin-bottom:100px
     }
+
     .empresas-section p{
         padding-left: 50px;
         padding-right: 50px;
@@ -729,6 +734,10 @@ ul#tabs li.check {
 
     .beneficios-section h1{
         padding-right: 50px;
+    }
+
+    .beneficios-section {
+        background-image: url(../assets/img/beneficios-background-1180.webp);
     }
 
     .module2 {
@@ -825,24 +834,25 @@ ul#tabs li.check {
         margin-top: 0px;
     }
 
-    .services-section p{
-        padding-left: 50px;
-        padding-right: 50px;
-        text-align: center;
-        font-size: 18px;
-    }
-
-    .empresas-section p{
-        padding-left: 50px;
-        padding-right: 50px;
-    }
     .beneficios-section h1{
         padding-right: 10px;
     }
 
-    .beneficios-data-center{
-        display: block;
+    .beneficios-section {
+        background-image: url(../assets/img/beneficios-background-767.webp);
+        height: 700px;
+        background-position: center center;
+        background-size:cover;
     }
+
+    .beneficios-section h1{
+        font-size:30px;
+    }
+
+    .beneficios-section h5{
+        font-size:20px;
+    }
+
 
     .contacto-section{
         padding-left: 30px;
@@ -918,31 +928,6 @@ ul#tabs li.check {
         background-size: cover;
     }
 
-    .services-section .card{
-        width: 18rem;
-    }
-
-    .services-section .card-text{
-        padding:10px;
-    }
-
-    .services-cadena h1{
-        font-size: 25px;
-    }
-
-    .services-cadena h2{
-        font-size: 20px;
-        padding: 20px;
-        margin-top: 10px;
-    }
-
-    .empresas-info{
-        padding-left:0px;
-    }
-
-    .empresas-section p{
-        padding: 0px;
-    }
 
     .img-cta {
         margin:30px 0px;
