@@ -156,6 +156,19 @@ body {
 
 }
 
+.digital {
+    background-image: url(../assets/img/digital-background.webp);
+    background-color:white;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:100px 0px;
+    height: 900px;
+
+}
+
+
+
 .beneficios-section h4{
     color:rgb(0,41,17);
     text-align: left;
@@ -804,7 +817,6 @@ ul#tabs li.check {
 
     .servicios-section{
         padding:60px 0px;
-    
     }
   }
 
@@ -1065,12 +1077,17 @@ ul#tabs li.check {
     .img-cta {
         margin:30px auto;
     }
+
+    .digital {
+        background-image: url(../assets/img/digital-background-767.webp);
+        padding:120px 0px;
+    }
 }
 
 @media (max-width: 560px) {
     .asesor{
         background-image: url(../assets/img/beneficios4-background-550.webp);
-        height: 700px;
+        height: 750px;
         background-position: center center;
         background-size:cover;
         padding:30px;
@@ -1079,6 +1096,13 @@ ul#tabs li.check {
     .img-cta-2{
         padding: 250px 0px;
         position:absolute;
+    }
+
+    .digital {
+        background-image: url(../assets/img/digital-background-550.webp);
+        background-repeat:space;
+        padding:50px 0px;
+        height: 700px;
     }
 
 }
@@ -1121,7 +1145,7 @@ ul#tabs li.check {
     }
 
     .img-cta-2{
-        padding: 200px 0px;
+        padding: 250px 0px;
         position:absolute;
     }
 }
