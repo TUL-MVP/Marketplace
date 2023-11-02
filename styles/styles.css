@@ -110,6 +110,17 @@ body {
     padding-bottom:50px;
 }
 
+.asesor{
+    background-image: url(../assets/img/beneficios4-background.webp);
+    background-color:white;
+    background-position: center center;
+    background-size: cover;
+    background-size: 1900px;
+    background-repeat: no-repeat;
+    padding-bottom:50px;
+    padding: 200px 0px;
+}
+
 .beneficios-section h4{
     color:rgb(0,41,17);
     text-align: left;
@@ -726,6 +737,10 @@ ul#tabs li.check {
     .beneficios3-section {
         background-image: url(../assets/img/beneficios3-background-1440.webp);
     }
+
+    .asesor{
+        background-image: url(../assets/img/beneficios4-background-1440.webp);
+    }
   }
 
 
@@ -792,6 +807,11 @@ ul#tabs li.check {
 
     .beneficios3-section {
         background-image: url(../assets/img/beneficios3-background-1180.webp);
+    }
+
+    .asesor{
+        background-image: url(../assets/img/beneficios4-background-1180.webp);
+        padding: 150px 0px;
     }
 
     .module2 {
@@ -909,6 +929,14 @@ ul#tabs li.check {
         background-size:cover;
     }
 
+    .asesor{
+        background-image: url(../assets/img/beneficios4-background-767.webp);
+        height: 700px;
+        background-position: center center;
+        background-size:cover;
+        padding:30px;
+    }
+
     .beneficios-section h1{
         font-size:30px;
         padding-right: 10px;
@@ -959,6 +987,17 @@ ul#tabs li.check {
     .img-cta {
         margin:30px auto;
     }
+}
+
+@media (max-width: 560px) {
+    .asesor{
+        background-image: url(../assets/img/beneficios4-background-550.webp);
+        height: 700px;
+        background-position: center center;
+        background-size:cover;
+        padding:30px;
+    }
+
 }
 
 @media (max-width: 500px) {
