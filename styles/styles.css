@@ -80,287 +80,15 @@ body {
     margin-top:100px;
     margin-bottom:100px
 }
-/*-----------------------------------SERVICES CTA -SECTION-----------------------------------*/
-.services-section{
-    background-color:rgb(8,14,70);
-}
-
-.services-section h4{
-    color:rgb(143,153,249);
-    text-align: center;
-    font-weight:700;
-}
-
-.services-section h1{
-    color: aliceblue;
-    text-align: center;
-    font-weight:700;
-    margin-top:30px;
-    font-size: 30px;
-}
-
-.services-section p{
-    color: aliceblue;
-    text-align: center;
-    font-weight:100;
-    margin-top:30px;
-    font-size: 20px;
-}
-
-.services-section span{
-    color: rgb(0,215,207);
-
-}
-
-.module {
-    width: 1000px;
-    margin: 0 0 1em 0;
-    overflow: hidden;
-  }
-
-.module p {
-    margin: 0;
-  }
-
-.line-clamp {
-    display: -webkit-box;
-    -webkit-line-clamp: 10;
-    -webkit-box-orient: vertical;
-}
-
-.services-section .card{
-    background:rgb(30,38,106);
-    box-shadow: 0px 4px 8px rgb(0 0 0 / 0.25);
-    width: 20rem;
-    margin:20px;
-    border:none;
-    border-radius:15px;
-    margin-top: 80px;
-    margin: 50px auto;
-}
-
-.card-img{
-    width: 50%;
-    margin-top: -70px;
-}
-
-/*----------------------------------consultoria Cadena -----------------------------------*/
-.services-section .cadena{
-    color: rgb(58,220,201);
-    text-align: center;
-    font-weight: 700;;
-}
-
-.linea-cadena{
-    margin: auto;
-    border-top: 4px solid rgb(58,220,201);
-    height: 4px;
-    max-width: 100px;
-    padding: 0;
-    border-radius: 10px;
-  }
-
-.card-button-cadena{
-    background:none;
-    color:rgb(58,220,201);
-    border:solid white 2px;
-    border-radius: 10px;
-    text-decoration: none;
-    padding:10px 20px 10px 20px;
-    font-weight:500;
-    display: block;
-    margin: 0 auto;
-}
-/*----------------------------------consultoria Cadena -----------------------------------*/
-
-/*----------------------------------consultoria Certificados-----------------------------------*/
-.services-section .certificados{
-    color: rgb(143, 110,247);
-    text-align: center;
-    font-weight: 700;;
-}
-
-  .linea-certificados {
-    margin: auto;
-    border-top: 4px solid rgb(143, 110,247);
-    height: 4px;
-    max-width: 100px;
-    padding: 0;
-    border-radius: 10px;
-  }
-
-.card-button-certificados{
-    background:none;
-    color:rgb(143, 110,247);
-    border:solid white 2px;
-    border-radius: 10px;
-    text-decoration: none;
-    padding:10px 20px 10px 20px;
-    font-weight:500;
-    display: block;
-    margin: 0 auto;
-}
-/*----------------------------------consultoria Certificados-----------------------------------*/
-
-  /*----------------------------------consultoria Card-----------------------------------*/
-.services-section .consultoria{
-    color: rgb(21,255,112);
-    text-align: center;
-    font-weight: 700;;
-}
-
-.linea-consultoria {
-    margin: auto;
-    border-top: 4px solid rgb(21,255,112);
-    height: 4px;
-    max-width: 100px;
-    padding: 0;
-    border-radius: 10px;
-}
-
-.card-button-consultoria{
-    background:none;
-    color:rgb(21,255,112);
-    border:solid white 2px;
-    border-radius: 10px;
-    text-decoration: none;
-    padding:10px 20px 10px 20px;
-    font-weight:500;
-    display: block;
-    margin: 0 auto;
-}
-/*----------------------------------consultoria Card-----------------------------------*/
-
-/*-----------------------------------SERVICES CTA -SECTION-----------------------------------*/
-.empresas-pioneras-section h1{
-    color:rgb(0,215,207);
-    text-align: center;
-    font-weight:700;
-}
-
-.empresas-pioneras-section p{
-    color: aliceblue;
-    text-align: center;
-    font-weight:100;
-    margin-top:30px;
-    font-size: 20px;
-}
-/*----------------------------------Slider-----------------------------------*/
-
-  /* Slider */
-  .slick-slide {
-      margin: 0px 20px;
-  }
-  .slick-slide img {
-      width: 100%;
-  }
-  .slick-slider
-  {
-      position: relative;
-      display: block;
-      box-sizing: border-box;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-              user-select: none;
-      -webkit-touch-callout: none;
-      -khtml-user-select: none;
-      -ms-touch-action: pan-y;
-          touch-action: pan-y;
-      -webkit-tap-highlight-color: transparent;
-  }
-  .slick-list
-  {
-      position: relative;
-      display: block;
-      overflow: hidden;
-      margin: 0;
-      padding: 0;
-  }
-  .slick-list:focus
-  {
-      outline: none;
-  }
-  .slick-list.dragging
-  {
-      cursor: pointer;
-      cursor: hand;
-  }
-  .slick-slider .slick-track,
-  .slick-slider .slick-list
-  {
-      -webkit-transform: translate3d(0, 0, 0);
-         -moz-transform: translate3d(0, 0, 0);
-          -ms-transform: translate3d(0, 0, 0);
-           -o-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-  }
-  .slick-track
-  {
-      position: relative;
-      top: 0;
-      left: 0;
-      display: block;
-  }
-  .slick-track:before,
-  .slick-track:after
-  {
-      display: table;
-      content: '';
-  }
-  .slick-track:after
-  {
-      clear: both;
-  }
-  .slick-loading .slick-track
-  {
-      visibility: hidden;
-  }
-  .slick-slide
-  {
-      display: none;
-      float: left;
-      height: 100%;
-      min-height: 1px;
-  }
-  [dir='rtl'] .slick-slide
-  {
-      float: right;
-  }
-  .slick-slide img
-  {
-      display: block;
-  }
-  .slick-slide.slick-loading img
-  {
-      display: none;
-  }
-  .slick-slide.dragging img
-  {
-      pointer-events: none;
-  }
-  .slick-initialized .slick-slide
-  {
-      display: block;
-  }
-  .slick-loading .slick-slide
-  {
-      visibility: hidden;
-  }
-  .slick-vertical .slick-slide
-  {
-      display: block;
-      height: auto;
-      border: 1px solid transparent;
-  }
-  .slick-arrow.slick-hidden {
-      display: none;
-  }
 
   /*----------------------------------Beneficios - Section-----------------------------------*/
-.beneficios-section{
-    background-image: url(../assets/img/beneficios-background.svg);
-    background-color:rgb(8,14,70);
+  .beneficios-data-center{
+    display: none;
+  }
+
+  .beneficios-section{
+    background-image: url(../assets/img/beneficios-background.webp);
+    background-color:white;
     background-position: center center;
     background-size: cover;
     background-size: 2050px;
@@ -369,18 +97,33 @@ body {
 }
 
 .beneficios-section h4{
-    color:rgb(143,153,249);
+    color:rgb(0,41,17);
     text-align: left;
     font-weight:700;
     margin-top: 50px;
 }
 
+.beneficios-section h5{
+    color:black;
+    font-size: 25px;
+    text-align: left;
+    font-weight:300;
+    margin-top: 50px;
+}
+
+.beneficios-section h6{
+    color:rgb(0,41,17);
+    font-size: 20px;
+    text-align: left;
+    font-weight:700;
+}
+
 .beneficios-section h1{
-    color: aliceblue;
+    color: rgb(52,226,123);
     text-align:left;
     font-weight:700;
     margin-top:0px;
-    font-size: 28px;
+    font-size: 40px;
     margin-bottom:40px;
 }
 
@@ -953,6 +696,7 @@ ul#tabs li.check {
         background-image: url(../assets/img/section-cadena-exportadores-background1400.svg);
         background-size: cover;
     }
+
   }
 
 
@@ -1085,6 +829,13 @@ ul#tabs li.check {
     }
     .beneficios-section h1{
         padding-right: 10px;
+    }
+
+    .beneficios-data-center{
+        display: block;
+    }
+
+    .beneficios-data-left{
     }
 
     .contacto-section{
