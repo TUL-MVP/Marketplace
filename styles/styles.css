@@ -5,9 +5,6 @@
     padding: 0px;
 }
 
-.industrias img{
-    margin: auto;
-}
 /*-----------------------------------STYLES CTA -SECTION-----------------------------------*/
 body {
     background:rgb(0,83,61);
@@ -82,12 +79,29 @@ body {
 }
 
   /*----------------------------------Beneficios - Section-----------------------------------*/
-  .beneficios-data-center{
-    display: none;
-  }
 
   .beneficios-section{
     background-image: url(../assets/img/beneficios-background.webp);
+    background-color:white;
+    background-position: center center;
+    background-size: cover;
+    background-size: 2050px;
+    background-repeat: no-repeat;
+    padding-bottom:50px;
+}
+
+.beneficios2-section{
+    background-image: url(../assets/img/beneficios2-background.webp);
+    background-color:white;
+    background-position: center center;
+    background-size: cover;
+    background-size: 1900px;
+    background-repeat: no-repeat;
+    padding-bottom:50px;
+}
+
+.beneficios3-section{
+    background-image: url(../assets/img/beneficios3-background.webp);
     background-color:white;
     background-position: center center;
     background-size: cover;
@@ -103,12 +117,29 @@ body {
     margin-top: 50px;
 }
 
+
 .beneficios-section h5{
     color:black;
     font-size: 25px;
     text-align: left;
     font-weight:300;
-    margin-top: 50px;
+    margin-top: 30px;
+}
+
+.beneficios2-section h5{
+    color:black;
+    font-size: 25px;
+    text-align: left;
+    font-weight:300;
+    margin-top: 30px;
+}
+
+.beneficios3-section h5{
+    color:black;
+    font-size: 25px;
+    text-align: left;
+    font-weight:300;
+    margin-top: 30px;
 }
 
 .beneficios-section h6{
@@ -126,6 +157,26 @@ body {
     font-size: 40px;
     margin-bottom:40px;
 }
+
+.beneficios2-section h1{
+    color: rgb(52,226,123);
+    text-align:left;
+    font-weight:700;
+    margin-top:0px;
+    font-size: 40px;
+    margin-bottom:40px;
+}
+
+.beneficios3-section h1{
+    color: rgb(52,226,123);
+    text-align:left;
+    font-weight:700;
+    margin-top:0px;
+    font-size: 40px;
+    margin-bottom:40px;
+}
+
+
 
 .module2 {
     width: 650px;
@@ -667,7 +718,17 @@ ul#tabs li.check {
     .beneficios-section {
         background-image: url(../assets/img/beneficios-background-1440.webp);
     }
+
+    .beneficios2-section {
+        background-image: url(../assets/img/beneficios2-background-1440.webp);
+    }
+
+    .beneficios3-section {
+        background-image: url(../assets/img/beneficios3-background-1440.webp);
+    }
   }
+
+
 /*Start media Query 1400*/
 @media (max-width: 1400px) {
 
@@ -690,17 +751,6 @@ ul#tabs li.check {
         margin-left: 40px;
 
     }
-
-    .empresas-section{
-        background-image: url(../assets/img/section-cadena-empresas-background1400.svg);
-        background-size: cover;
-    }
-
-    .exportadores-section{
-        background-image: url(../assets/img/section-cadena-exportadores-background1400.svg);
-        background-size: cover;
-    }
-
   }
 
 
@@ -738,6 +788,10 @@ ul#tabs li.check {
 
     .beneficios-section {
         background-image: url(../assets/img/beneficios-background-1180.webp);
+    }
+
+    .beneficios3-section {
+        background-image: url(../assets/img/beneficios3-background-1180.webp);
     }
 
     .module2 {
@@ -834,10 +888,6 @@ ul#tabs li.check {
         margin-top: 0px;
     }
 
-    .beneficios-section h1{
-        padding-right: 10px;
-    }
-
     .beneficios-section {
         background-image: url(../assets/img/beneficios-background-767.webp);
         height: 700px;
@@ -845,7 +895,31 @@ ul#tabs li.check {
         background-size:cover;
     }
 
+    .beneficios2-section {
+        background-image: url(../assets/img/beneficios2-background-767.webp);
+        height: 700px;
+        background-position: center center;
+        background-size:cover;
+    }
+
+    .beneficios3-section {
+        background-image: url(../assets/img/beneficios3-background-767.webp);
+        height: 700px;
+        background-position: center center;
+        background-size:cover;
+    }
+
     .beneficios-section h1{
+        font-size:30px;
+        padding-right: 10px;
+    }
+
+    .beneficios2-section h1{
+        font-size:30px;
+    }
+
+
+    .beneficios3-section h1{
         font-size:30px;
     }
 
@@ -853,6 +927,13 @@ ul#tabs li.check {
         font-size:20px;
     }
 
+    .beneficios2-section h5{
+        font-size:20px;
+    }
+
+    .beneficios3-section h5{
+        font-size:20px;
+    }
 
     .contacto-section{
         padding-left: 30px;
@@ -881,6 +962,13 @@ ul#tabs li.check {
 }
 
 @media (max-width: 500px) {
+
+    .beneficios3-section {
+        background-image: url(../assets/img/beneficios3-background-500.webp);
+        height: 700px;
+        background-position: center center;
+        background-size:cover;
+    }
     .industrias-section h4{
         margin-left: 30px;
     }
