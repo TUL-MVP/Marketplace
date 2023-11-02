@@ -875,9 +875,22 @@ ul#tabs li.check {
         padding: 0px;
     }
 
+    .cta-section{
+        background-image: url(../assets/img/background-cta-section-472.webp);
+    }
+
     .img-cta {
         margin:30px 0px;
     }
+
+    .cta-section h1{
+        font-size: 25px;
+        margin-top: 100px;
+    }
+
+    .navbar-custom {
+    height: 80px;
+}
 }
 
 
